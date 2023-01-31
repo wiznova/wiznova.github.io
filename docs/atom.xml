@@ -1,2 +1,161 @@
 <?xml version="1.0" encoding="utf8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Sergey's blog</title><link href="https://wiznova.github.io/" rel="alternate"></link><link href="https://wiznova.github.io/atom.xml" rel="self"></link><id>https://wiznova.github.io/</id><updated>2023-01-11T15:42:35Z</updated><subtitle>Sergey Khalil's personal website and blog</subtitle></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Sergey's blog</title><link href="https://wiznova.github.io/" rel="alternate"></link><link href="https://wiznova.github.io/atom.xml" rel="self"></link><id>https://wiznova.github.io/</id><updated>2023-01-12T00:00:00+01:00</updated><subtitle>Sergey Khalil's personal website and blog</subtitle><entry><title>Markdown demo page</title><link href="https://wiznova.github.io/tests/markdown_demo.html" rel="alternate"></link><published>2023-01-12T00:00:00+01:00</published><updated>2023-01-12T00:00:00+01:00</updated><author><name>Sergey Khalil</name></author><id>tag:wiznova.github.io,2023-01-12:/tests/markdown_demo.html</id><summary type="html">A page to view all the markdown features on one page</summary><content type="html">&lt;h1&gt;h1 Heading 8-)&lt;/h1&gt;
+&lt;h2&gt;h2 Heading&lt;/h2&gt;
+&lt;h3&gt;h3 Heading&lt;/h3&gt;
+&lt;h4&gt;h4 Heading&lt;/h4&gt;
+&lt;h5&gt;h5 Heading&lt;/h5&gt;
+&lt;h6&gt;h6 Heading&lt;/h6&gt;
+&lt;h2&gt;Horizontal Rules&lt;/h2&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;Typographic replacements&lt;/h2&gt;
+&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
+&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;
+&lt;p&gt;test.. test&amp;hellip; test..... test?..... test!....&lt;/p&gt;
+&lt;p&gt;!!!!!! ???? ,,  &amp;ndash; &amp;mdash;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;&lt;/p&gt;
+&lt;h2&gt;Emphasis&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;~~Strikethrough~~&lt;/p&gt;
+&lt;h2&gt;Blockquotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can also be nested&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip;by using additional greater-than signs right next to each other&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip;or with spaces between arrows.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Lists&lt;/h2&gt;
+&lt;p&gt;Unordered&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sub-lists are made by indenting 2 spaces:&lt;/li&gt;
+&lt;li&gt;Marker character change forces new list start:&lt;ul&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Very easy!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ordered&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integer molestie lorem at massa&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can use sequential numbers&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;hellip;or keep all the numbers as &lt;code&gt;1.&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Start numbering with offset:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;foo&lt;/li&gt;
+&lt;li&gt;bar&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Indented code&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// Some comments&lt;/span&gt;
+&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;
+&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;
+&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Block code &amp;ldquo;fences&amp;rdquo;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Sample text here...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Syntax highlighting&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;bar&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;bar&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+&lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;5&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Tables&lt;/h2&gt;
+&lt;p&gt;| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |&lt;/p&gt;
+&lt;p&gt;Right aligned columns&lt;/p&gt;
+&lt;p&gt;| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |&lt;/p&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://dev.nodeca.com"&gt;link text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://nodeca.github.io/pica/demo/" title="title text!"&gt;link with title&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Autoconverted link https://github.com/nodeca/pica (enable linkify to see)&lt;/p&gt;
+&lt;h2&gt;Images&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Minion" src="https://octodex.github.com/images/minion.png"&gt;
+&lt;img alt="Stormtroopocat" src="https://octodex.github.com/images/stormtroopocat.jpg" title="The Stormtroopocat"&gt;&lt;/p&gt;
+&lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt text" src="https://octodex.github.com/images/dojocat.jpg" title="The Dojocat"&gt;&lt;/p&gt;
+&lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;The killer feature of &lt;code&gt;markdown-it&lt;/code&gt; is very effective support of
+&lt;a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin"&gt;syntax plugins&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-emoji"&gt;Emojies&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:&lt;/p&gt;
+&lt;p&gt;Shortcuts (emoticons): :-) :-( 8-) ;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;see &lt;a href="https://github.com/markdown-it/markdown-it-emoji#change-output"&gt;how to change output&lt;/a&gt; with twemoji.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-sub"&gt;Subscript&lt;/a&gt; / &lt;a href="https://github.com/markdown-it/markdown-it-sup"&gt;Superscript&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;19^th^&lt;/li&gt;
+&lt;li&gt;H~2~O&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-ins"&gt;\&lt;ins&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;++Inserted text++&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-mark"&gt;\&lt;mark&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;==Marked text==&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-footnote"&gt;Footnotes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Footnote 1 link[^first].&lt;/p&gt;
+&lt;p&gt;Footnote 2 link[^second].&lt;/p&gt;
+&lt;p&gt;Inline footnote^[Text of inline footnote] definition.&lt;/p&gt;
+&lt;p&gt;Duplicated footnote reference[^second].&lt;/p&gt;
+&lt;p&gt;[^first]: Footnote &lt;strong&gt;can have markup&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;and multiple paragraphs.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;[^second]: Footnote text.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-deflist"&gt;Definition lists&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Term 1&lt;/p&gt;
+&lt;p&gt;:   Definition 1
+with lazy continuation.&lt;/p&gt;
+&lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;:   Definition 2&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Term 1
+  ~ Definition 1&lt;/p&gt;
+&lt;p&gt;Term 2
+  ~ Definition 2a
+  ~ Definition 2b&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-abbr"&gt;Abbreviations&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is HTML abbreviation example.&lt;/p&gt;
+&lt;p&gt;It converts &amp;ldquo;HTML&amp;rdquo;, but keep intact partial entries like &amp;ldquo;xxxHTMLyyy&amp;rdquo; and so on.&lt;/p&gt;
+&lt;p&gt;*[HTML]: Hyper Text Markup Language&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://github.com/markdown-it/markdown-it-container"&gt;Custom containers&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;::: warning
+&lt;em&gt;here be dragons&lt;/em&gt;
+:::&lt;/p&gt;</content></entry><entry><title>Hello world!</title><link href="https://wiznova.github.io/tests/hello_world.html" rel="alternate"></link><published>2023-01-12T00:00:00+01:00</published><updated>2023-01-12T00:00:00+01:00</updated><author><name>Sergey Khalil</name></author><id>tag:wiznova.github.io,2023-01-12:/tests/hello_world.html</id><summary type="html">Hello world!</summary><content type="html">&lt;h1&gt;Hello world!&lt;/h1&gt;
+&lt;p&gt;This is the first article on this blog!&lt;/p&gt;</content></entry><entry><title>Socond article</title><link href="https://wiznova.github.io/second_article.html" rel="alternate"></link><published>2023-01-10T00:00:00+01:00</published><updated>2023-01-10T00:00:00+01:00</updated><author><name>Sergey Khalil</name></author><id>tag:wiznova.github.io,2023-01-10:/second_article.html</id><summary type="html">Some subtitle here</summary><content type="html">&lt;h1&gt;Second article&lt;/h1&gt;
+&lt;p&gt;This is the second article on this blog!&lt;/p&gt;</content></entry></feed>

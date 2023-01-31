@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author }}">
@@ -11,27 +11,29 @@
     <meta name="description" content="{{ site.description }}">
     {%- endif %}
     <title>{% block title %}{% endblock %} | {{ site.description }}</title>
-  </head>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
 
-  <body>
+<body>
     <header>
-      <h1><a href="/">{{ site.title }}</a></h1>
-      <nav>
-        <h2>{{ site.description }}</h2>
-        <ul>
-          <li><a href="/">Index page</a></li>
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/atom.xml">Atom Feed</a></li>
-        </ul>
-      </nav>
+        <h1><a href="/">{{ site.title }}</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/tests/">Tests</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-    {% block content %}
-    {% endblock %}
+        {% block content %}
+        {% endblock %}
     </main>
 
-  </body>
+</body>
+<footer>
+    <li><a href="/tags/">Tags</a></li>
+    <li><a href="/atom.xml">Atom Feed</a></li>
+</footer>
 
 </html>
-
